@@ -5,8 +5,8 @@
     </description>
     <author email="developer@apicloud.com" href="http://www.apicloud.com">
         Developer
-    </author>
-    <content src="index.html" />
+    </author>     <!-- 应用运行的起始页 -->
+    <content src="./html/frame0.html" />
     <access origin="*" />
     <preference name="pageBounce" value="false"/>
 	<preference name="appBackground" value="rgba(0,0,0,0.0)"/>
@@ -27,5 +27,9 @@
 	<permission name="fileSystem" />
 	<permission name="internet" />
 	<permission name="bootCompleted" />
-	<permission name="hardware" />
+	<permission name="hardware" />  <feature name="bMap">
+        <param name="android_api_key" value="OeDOjUdjEluy8tLa6a7nqvBATupjQwGq"/>
+        <param name="ios_api_key" value="oWv6WGQwqCzAevvtblF96rFVjiRCPeQY"/>
+  </feature>
+
 </widget>
